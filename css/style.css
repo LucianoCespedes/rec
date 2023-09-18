@@ -1,0 +1,35 @@
+body{
+    background-color:rgb(222, 255, 240);
+}
+
+.divi{
+    margin: 50px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: #f78ffe;
+    background-color: #684caf;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    }
+
+
+.button:hover {background-color: #684caf}
+
+.button:active {
+  background-color: #395182;
+  box-shadow: 0 5px hsl(0, 0%, 71%);
+  transform: translateY(4px);
+}
